@@ -1,0 +1,12 @@
+print() -> prints the values
+
+print("""sososo""") -> Multi string literal print
+
+input() -> Takes value from the user
+
+len() -> gives you the length of the variable or string or value
+
+Types of error:
+    1.) SyntaxError
+    2.) IndentationError
+    3.) NameError
