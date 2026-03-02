@@ -21,7 +21,7 @@ print("Hello"[0]) or print("Hello"[-1])
 
     1.) type() -> Gives the type of the variable or value within the ()
 
-    2.) int() -> Type conversion -> int("123") gives 123.
+    2.) int(), str(), float(), bool() -> Type conversion -> int("123") gives 123.
 
     3.) len() returns an integer value and need to typecasted before it is concatenated in a print statement.
 
@@ -37,7 +37,9 @@ print("Hello"[0]) or print("Hello"[-1])
             add      -    2 + 3     =   5
             subtract -    3 - 2     =   1
             multiply -    2 * 3     =   6
-            Divide   -    3 / 2     =   1.5         - Note that division gives you float value even if its 1.0
-            Exponent -    3 // 2    =   1
+            Divide   -    3 / 2     =   1.5 - division gives you float value
+            
+            Exponent -   10 // 3    =   3 - Gives divider
+            Modulo   -   10 % 3     =   1 - Gives remainder
     
     3.) int(30.4556777) will give 30
