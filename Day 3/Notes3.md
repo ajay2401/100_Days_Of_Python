@@ -9,7 +9,7 @@
     else:
         print "Underage"
 
-# Functions
+# Logical Operators in Python
 
     and - returns True only if both conditions are True
     or - returns True when one or more conditions are True
@@ -41,5 +41,5 @@
 
 
 # Notes
-    1.) you can give the condition in brackets as well in case you are wondering
-    2.) remember to use : after the conditions
+    1. you can give the condition in brackets as well in case you are wondering
+    2. remember to use : after the conditions
