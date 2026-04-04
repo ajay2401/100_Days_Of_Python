@@ -23,9 +23,6 @@
 
         mix[1][1] - beans # since mix[1] will give veggies list and veggies[1] = beans.
 
-        
-
-
 # Lists
 
     1. list.append("Pear") -> adds value at end of list
@@ -115,6 +112,18 @@
     4. random.choice() -> Gives a random value from a sequence or list
 
         a. random.choice(["a","b","c"]) gives b or a or c randomly
+
+    5. random.shuffle() -> Shuffles the elements of a list
+
+        a. random.shuffle(["a","b","c"]) gives c,b,a or b,c,a randomly
+
+# random.choice() vs random.shuffle()
+
+    | Function    | Returns | Modifies original? |
+    | ----------- | ------- | ------------------ |
+    | `choice()`  | element | ❌ No               |
+    | `shuffle()` | `None`  | ✅ Yes              |
+
 
 # Points to Remember
 
