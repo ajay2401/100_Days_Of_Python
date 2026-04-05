@@ -31,3 +31,14 @@
     "".join(array) -> Will join the array to a string.
 
         "".join(list) -> "AB"
+
+# Notes
+
+    for loops -> for i in list: iterates the i with the value not the index, meaning if you
+
+    for i in list:
+        print(i)
+    
+    the i will print the value present in that index and not the index number.
+
+    To print index number use - for i in range(0,len(list)):
